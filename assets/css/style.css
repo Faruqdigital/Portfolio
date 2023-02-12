@@ -11,6 +11,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -144,6 +146,7 @@ h6 {
 #header .logo a {
   color: #32A99A;
   font-family: 'Lobster', sans-serif;
+  /* font-family: 'Lobster Two', sans-serif; */
 }
 
 #header .logo img {
@@ -203,7 +206,7 @@ h6 {
 .navbar .getstarted,
 .navbar .getstarted:focus {
   padding: 8px 20px;
-  margin-left: 30px;
+  margin-left: 291px;
   border-radius: 7px;
   color: #fafeff;
   font-size: 14px;
@@ -218,6 +221,8 @@ h6 {
   background: #32A99A;
   font-size: 16px;
 }
+
+
 
 /* .navbar .dropdown ul {
   display: block;
@@ -411,7 +416,17 @@ h6 {
   padding-top: 72px;
 }
 
+#hero h5 {
+  width: 110px;
+  margin-left: 75px;
+  background-color: #FFE7E8;
+  color: #FA5D63;
+  padding: 10px;
+  border-radius: 7px;
+}
+
 #hero h1 {
+  position: relative;
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -419,7 +434,17 @@ h6 {
   color: #fff;
 }
 
-#hero h1 span{
+#hero h1::before {
+  content: " ";
+  width: 52px;
+  height: 1px;
+  top: -36px;
+  right: 573px;
+  background-color: #444444;
+  position: absolute;
+}
+
+#hero h1 span {
   color: #32A99A;
 }
 
